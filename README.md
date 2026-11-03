@@ -54,6 +54,11 @@ Examples to try:
 
 The first question after starting is slow because Ollama loads the model into memory.
 
+If Ollama is not running, or a model is missing, the chat stops at start with a plain message such as
+`Cannot reach Ollama. Open the Ollama app (or run: ollama serve) and try again.` or
+`The model bge-m3 is not installed. Run: ollama pull bge-m3`. If the model fails during a chat, for example
+when the 16 GB machine runs out of memory, the bot prints a short sorry message and the chat continues.
+
 ## How it works
 
 Fixed steps, one after another. The code decides at the gate, not the model.
@@ -92,7 +97,7 @@ Why each design choice:
 ## Run the tests and evaluations
 
 ```
-uv run pytest -q                       # 10 unit tests, no model needed
+uv run pytest -q                       # 13 unit tests, no model needed
 uv run python eval/run_eval.py         # the 40 test questions, writes outputs/results_local.csv
 uv run python eval/run_extra.py        # 49 extra practice questions, writes outputs/results_extra.csv
 uv run python eval/run_lang.py         # language detection: word list against model, 122 questions
