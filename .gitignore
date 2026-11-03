@@ -7,3 +7,5 @@ chroma_db/
 outputs/qwen9_baseline/
 outputs/langchain_baseline/
 docs/LOOM_SCRIPT.md
+docs/LOOM_CUE_CARDS.md
+docs/LOOM_HOWTO.md
