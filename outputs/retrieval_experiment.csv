@@ -1,0 +1,67 @@
+﻿id,lang,expected,variant,query,top1,top1_score,top3
+1,banglish,19,none,Personal loan er interest rate koto?,19,0.724,19 18 20
+1,banglish,19,english,What is the interest rate for a personal loan?,19,0.756,19 18 20
+1,banglish,19,bangla,ব্যক্তিগত ঋণের সুদের হার কত?,19,0.645,19 18 20
+2,en,8,none,When will my BEFTN transfer reach the other bank?,8,0.82,8 7 26
+3,banglish,24,none,"Amar account theke ekta transaction ami korini, kothay janabo?",5,0.474,5 24 13
+3,banglish,24,english,I made a transaction from my account. Where can I check it?,24,0.673,24 29 13
+3,banglish,24,bangla,"আমার অ্যাকাউন্ট থেকে একটি ট্রানজেকশন আমি করেছি, কোথায় জানবো?",24,0.595,24 8 26
+4,en,17,none,What happens if I break my FDR early?,17,0.638,17 16 29
+5,en,23,none,What is the late payment fee on a credit card?,23,0.782,23 22 3
+6,bn,22,none,ক্রেডিট কার্ডের বিল কবে দিতে হয়?,22,0.746,22 23 21
+7,banglish,7,none,Ek din e koto taka transfer kora jay?,7,0.427,7 8 26
+7,banglish,7,english,How much money can be transferred in a day?,7,0.729,7 9 8
+7,banglish,7,bangla,একদিনে কত টাকা ট্রান্সফার করা যায়?,7,0.693,7 9 8
+8,en,11,none,How can I get a bank statement for the last six months?,11,0.708,11 24 29
+9,bn,25,none,এসএমএস অ্যালার্টের জন্য কত চার্জ?,25,0.693,25 2 3
+10,bn,27,none,চেক বই পেতে কত দিন লাগে?,27,0.71,27 24 26
+11,en,NONE,none,Will you waive the interest on my loan because my business made a loss?,19,0.566,19 4 29
+12,banglish,16,none,FDR korte minimum koto taka lage?,16,0.618,16 17 21
+12,banglish,16,english,How much money is required to open a Fixed Deposit account?,1,0.651,1 16 2
+12,banglish,16,bangla,এফডিআর করতে ন্যূনতম কত টাকা লাগে?,16,0.664,16 7 17
+13,bn,NONE,none,আমার বন্ধুর অ্যাকাউন্টে কত টাকা আছে বলুন তো?,2,0.58,2 7 9
+14,bn,9,none,এটিএম থেকে দিনে সর্বোচ্চ কত টাকা তোলা যায়?,9,0.75,9 7 2
+15,en,14,none,Can I open a joint account with my spouse?,14,0.737,14 1 29
+16,en,1,none,What documents do I need to open a savings account?,1,0.806,1 14 2
+17,banglish,28,none,Cheque er payment ta stop korbo kibhabe?,28,0.635,28 27 11
+17,banglish,28,english,How do I stop a cheque payment?,28,0.773,28 27 29
+17,banglish,28,bangla,চেকের পেমেন্টটি কীভাবে বন্ধ করব?,28,0.719,28 29 24
+18,bn,NONE,none,আজকের স্বর্ণের দাম কত?,7,0.404,7 9 2
+19,bn,NONE,none,আপনাদের সিঙ্গাপুরে কোনো শাখা আছে কি?,10,0.433,10 4 29
+20,bn,2,none,সেভিংস অ্যাকাউন্টে সর্বনিম্ন কত টাকা রাখতে হবে?,1,0.652,1 2 16
+21,en,NONE,none,Do you offer cryptocurrency trading accounts?,14,0.486,14 29 1
+22,bn,18,none,পার্সোনাল লোনের জন্য কী যোগ্যতা লাগে?,18,0.668,18 21 1
+23,banglish,3,none,Debit card er annual fee koto?,3,0.795,3 23 29
+23,banglish,3,english,What is the annual fee for the debit card?,3,0.802,3 23 4
+23,banglish,3,bangla,ডেবিট কার্ডের বার্ষিক ফি কত?,3,0.755,3 23 21
+24,banglish,5,none,"Card er PIN bhule gechi, reset korbo kibhabe?",5,0.728,5 4 12
+24,banglish,5,english,I have forgotten my card PIN. How can I reset it?,5,0.77,5 4 6
+24,banglish,5,bangla,"কার্ডের পিন ভুলে গেছি, রিসেট করবো কিভাবে?",5,0.7,5 4 6
+25,banglish,10,none,Branch gulo kon din kon shomoy khola thake?,10,0.449,10 27 11
+25,banglish,10,english,On which days and at what time are the branches open?,10,0.736,10 4 29
+25,banglish,10,bangla,শাখাগুলো কোন দিন ও কোন সময়ে খোলা থাকে?,10,0.725,10 4 29
+26,bn,15,none,নমিনি পরিবর্তন করতে কী লাগবে?,15,0.642,15 12 5
+27,bn,4,none,"আমার কার্ড হারিয়ে গেছে, এখন কী করব?",4,0.723,4 5 24
+28,en,6,none,How do I register for the NB Go mobile app?,6,0.78,6 12 11
+29,en,26,none,Is there a fee to receive remittance from abroad?,26,0.802,26 28 3
+30,en,20,none,How much of the property value can I borrow for a home loan?,20,0.758,20 18 19
+31,banglish,21,none,Credit card nite hole income koto hote hobe?,21,0.623,21 22 4
+31,banglish,21,english,How much income is required to get a credit card?,21,0.749,21 18 1
+31,banglish,21,bangla,ক্রেডিট কার্ড নিতে হলে আয় কত হতে হবে?,21,0.714,21 18 1
+32,en,NONE,none,What is today's dollar to taka exchange rate?,7,0.46,7 9 16
+33,banglish,NONE,none,Apnader bank er share kinle labh hobe?,17,0.392,17 1 11
+33,banglish,NONE,english,Will buying shares of your bank benefit you?,17,0.464,17 11 14
+33,banglish,NONE,bangla,আপনার ব্যাংকের শেয়ার কিনলে লাভ হবে?,17,0.473,17 19 11
+34,bn,12,none,"আমার মোবাইল নম্বর বদলাতে চাই, কীভাবে করব?",12,0.709,12 6 4
+35,banglish,13,none,Account dormant hoye gele ki korte hobe?,13,0.621,13 4 24
+35,banglish,13,english,What should I do if my account has become dormant?,13,0.771,13 24 4
+35,banglish,13,bangla,অ্যাকাউন্ট ডরম্যান্ট হয়ে গেলে কি করা হবে?,13,0.628,13 24 29
+36,en,NONE,none,Can you give me the phone number of the branch manager in Sylhet?,4,0.507,4 12 10
+37,banglish,NONE,none,"Amar boyosh 17, ami ki student loan pabo?",18,0.513,18 20 21
+37,banglish,NONE,english,I am 17 years old; will I be eligible for a student loan?,18,0.6,18 21 20
+37,banglish,NONE,bangla,"আমার বয়স ১৭, আমি কি স্টুডেন্ট লোন পাবো?",18,0.596,18 21 20
+38,banglish,30,none,KYC update koto bochor por por korte hoy?,30,0.586,30 4 21
+38,banglish,30,english,How many days after the account opening is it required to update KYC?,30,0.715,30 29 24
+38,banglish,30,bangla,কেসিআই আপডেট কত বছর পর পর করতে হয়?,30,0.672,30 21 22
+39,bn,NONE,none,আমার ব্যবসার জন্য ভিসা সহায়তা পাওয়া যাবে?,1,0.45,1 21 18
+40,en,29,none,How do I close my account?,29,0.716,29 13 28

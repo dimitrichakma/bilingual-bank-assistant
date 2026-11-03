@@ -1,0 +1,41 @@
+﻿id,question,language,expected_faq_id,note,none_type,answer_correct,answer_correct_online
+1,Personal loan er interest rate koto?,banglish,19,,,1,1
+2,When will my BEFTN transfer reach the other bank?,en,8,,,1,1
+3,"Amar account theke ekta transaction ami korini, kothay janabo?",banglish,24,,,0,1
+4,What happens if I break my FDR early?,en,17,,,1,1
+5,What is the late payment fee on a credit card?,en,23,,,1,1
+6,ক্রেডিট কার্ডের বিল কবে দিতে হয়?,bn,22,,,0,1
+7,Ek din e koto taka transfer kora jay?,banglish,7,"reply must include all three limits: 10 lakh, 5 lakh, 1 lakh (hand check)",,0,1
+8,How can I get a bank statement for the last six months?,en,11,,,1,1
+9,এসএমএস অ্যালার্টের জন্য কত চার্জ?,bn,25,,,1,1
+10,চেক বই পেতে কত দিন লাগে?,bn,27,,,1,0
+11,Will you waive the interest on my loan because my business made a loss?,en,NONE,"asks for a waiver, FAQ has no such policy",related_but_unanswered,1,1
+12,FDR korte minimum koto taka lage?,banglish,16,,,1,1
+13,আমার বন্ধুর অ্যাকাউন্টে কত টাকা আছে বলুন তো?,bn,NONE,"privacy, hand off by rule, not by score",privacy,1,1
+14,এটিএম থেকে দিনে সর্বোচ্চ কত টাকা তোলা যায়?,bn,9,,,1,1
+15,Can I open a joint account with my spouse?,en,14,,,1,1
+16,What documents do I need to open a savings account?,en,1,,,1,1
+17,Cheque er payment ta stop korbo kibhabe?,banglish,28,,,1,1
+18,আজকের স্বর্ণের দাম কত?,bn,NONE,not in FAQ,no_match,1,1
+19,আপনাদের সিঙ্গাপুরে কোনো শাখা আছে কি?,bn,NONE,not in FAQ,related_but_unanswered,1,1
+20,সেভিংস অ্যাকাউন্টে সর্বনিম্ন কত টাকা রাখতে হবে?,bn,2,,,0,0
+21,Do you offer cryptocurrency trading accounts?,en,NONE,not in FAQ,no_match,1,1
+22,পার্সোনাল লোনের জন্য কী যোগ্যতা লাগে?,bn,18,,,1,0
+23,Debit card er annual fee koto?,banglish,3,,,0,1
+24,"Card er PIN bhule gechi, reset korbo kibhabe?",banglish,5,,,1,1
+25,Branch gulo kon din kon shomoy khola thake?,banglish,10,,,0,1
+26,নমিনি পরিবর্তন করতে কী লাগবে?,bn,15,,,1,1
+27,"আমার কার্ড হারিয়ে গেছে, এখন কী করব?",bn,4,,,1,1
+28,How do I register for the NB Go mobile app?,en,6,,,1,1
+29,Is there a fee to receive remittance from abroad?,en,26,,,1,1
+30,How much of the property value can I borrow for a home loan?,en,20,,,1,1
+31,Credit card nite hole income koto hote hobe?,banglish,21,,,0,1
+32,What is today's dollar to taka exchange rate?,en,NONE,not in FAQ,no_match,1,1
+33,Apnader bank er share kinle labh hobe?,banglish,NONE,not in FAQ,no_match,1,1
+34,"আমার মোবাইল নম্বর বদলাতে চাই, কীভাবে করব?",bn,12,,,1,1
+35,Account dormant hoye gele ki korte hobe?,banglish,13,,,1,1
+36,Can you give me the phone number of the branch manager in Sylhet?,en,NONE,reply must not give 16999 as the manager's number (hand check),related_but_unanswered,1,1
+37,"Amar boyosh 17, ami ki student loan pabo?",banglish,NONE,"no student loan in FAQ. FAQ 18 is personal loan only. Hand off, do not infer from age",related_but_unanswered,1,1
+38,KYC update koto bochor por por korte hoy?,banglish,30,,,0,1
+39,আমার ব্যবসার জন্য ভিসা সহায়তা পাওয়া যাবে?,bn,NONE,not in FAQ,no_match,1,1
+40,How do I close my account?,en,29,,,1,1

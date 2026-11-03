@@ -1,0 +1,43 @@
+﻿id,status,reason,raw,retried,reply,gen_seconds
+1,answered,ok,Personal loan er interest rate 12% per year reducing balance e hoy. Processing fee 1% loan amount e chole neya hoy.,0,Personal loan er interest rate 12% per year reducing balance e hoy. Processing fee 1% loan amount e chole neya hoy.,7.66
+2,answered,ok,"A BEFTN transfer is credited by the next working day, as long as it is sent before 3:00 PM.",0,"A BEFTN transfer is credited by the next working day, as long as it is sent before 3:00 PM.",8.03
+3,answered,ok,"Amar account theke ekta transaction ami korini, kothay janabo?
+Report kora 30 din e 16999 number e call kora jawa hayo. Branch bishoye report kora shobho option hoy.",0,"Amar account theke ekta transaction ami korini, kothay janabo?
+Report kora 30 din e 16999 number e call kora jawa hayo. Branch bishoye report kora shobho option hoy.",9.82
+4,answered,ok,"If you encash early, interest is paid at the savings account rate of 4% per year from the deposit date, and the FDR rate no longer applies.",0,"If you encash early, interest is paid at the savings account rate of 4% per year from the deposit date, and the FDR rate no longer applies.",8.51
+5,answered,ok,A flat late payment fee of BDT 500 applies if you miss the due date.,0,A flat late payment fee of BDT 500 applies if you miss the due date.,7.81
+6,answered,ok,আপনার বিল জমা দেওয়ার তারিখ হলো মাসের ২৫-তম। নিরবহর ব্যাংকের এনবি গো অ্যাপে এই তথ্য দেখা যায়।,0,আপনার বিল জমা দেওয়ার তারিখ হলো মাসের ২৫-তম। নিরবহর ব্যাংকের এনবি গো অ্যাপে এই তথ্য দেখা যায়।,4.97
+7,answered,ok,"Ek din e Nirbhor Bank account e 10 lakh taka, dusro bank e BEFTN through 5 lakh taka, RTGS theke 1 lakh taka shuru hote hoy.",0,"Ek din e Nirbhor Bank account e 10 lakh taka, dusro bank e BEFTN through 5 lakh taka, RTGS theke 1 lakh taka shuru hote hoy.",11.33
+8,answered,ok,The last 6 months of statements are free in the NB Go app.,0,The last 6 months of statements are free in the NB Go app.,7.74
+9,answered,ok,এসএমএস অ্যালার্টের জন্য বার্ষিকভাবে বিডিটি ১২০ চার্জ হয়। আপনার অ্যাকাউন্ট থেকে এই পরিমাণ আয় হবে।,0,এসএমএস অ্যালার্টের জন্য বার্ষিকভাবে বিডিটি ১২০ চার্জ হয়। আপনার অ্যাকাউন্ট থেকে এই পরিমাণ আয় হবে।,4.3
+10,answered,ok,চেক বইটি আপনার শাখায় অথবা অ্যাপের মাধ্যমে অনুরোধ করলে ৩ কাজের দিনের মধ্যে প্রস্তুত হয়ে যাবে।,0,চেক বইটি আপনার শাখায় অথবা অ্যাপের মাধ্যমে অনুরোধ করলে ৩ কাজের দিনের মধ্যে প্রস্তুত হয়ে যাবে।,3.41
+11,handoff,cannot_answer,CANNOT_ANSWER,0,,1.93
+12,answered,ok,"FDR korte minimum 25,000 taka lage. Tenures 3, 6 ba 12 mahone hoye neya.",0,"FDR korte minimum 25,000 taka lage. Tenures 3, 6 ba 12 mahone hoye neya.",7.26
+13,handoff,privacy,,0,,0
+14,answered,ok,"আপনি দিনে কার্ডের মাধ্যমে সর্বোচ্চ ৫০,০০০ টাকার বেশি তোলা পারবেন না। একবারে সর্বোচ্চ ২০,০০০ টাকা তোলা যায়।",0,"আপনি দিনে কার্ডের মাধ্যমে সর্বোচ্চ ৫০,০০০ টাকার বেশি তোলা পারবেন না। একবারে সর্বোচ্চ ২০,০০০ টাকা তোলা যায়।",5.01
+15,answered,ok,"Yes, you can open a joint account with your spouse as one of the up to 2 allowed holders, provided both you and your spouse sign the account opening documents.",0,"Yes, you can open a joint account with your spouse as one of the up to 2 allowed holders, provided both you and your spouse sign the account opening documents.",9.0
+16,answered,ok,"You need your NID or passport, two passport-size photos, and nominee details. A TIN certificate is optional. The minimum opening deposit is BDT 500.",0,"You need your NID or passport, two passport-size photos, and nominee details. A TIN certificate is optional. The minimum opening deposit is BDT 500.",9.75
+17,answered,ok,Cheque er payment stop korar jonno apnar branch e likha likhe request jayen. Fee har cheque-e BDT 100 hoy.,0,Cheque er payment stop korar jonno apnar branch e likha likhe request jayen. Fee har cheque-e BDT 100 hoy.,9.46
+18,handoff,low_score,,0,,0
+19,handoff,low_score,,0,,0
+20,answered,ok,আপনারা সর্বনিম্ন বিডিটি ৫০০ টাকার ডিপোজিট দিয়ে অ্যাকাউন্ট খুলতে পারেন। এটি একটি অপশনাল টিন সার্টিফিকেট নয়।,0,আপনারা সর্বনিম্ন বিডিটি ৫০০ টাকার ডিপোজিট দিয়ে অ্যাকাউন্ট খুলতে পারেন। এটি একটি অপশনাল টিন সার্টিফিকেট নয়।,5.08
+21,handoff,low_score,,0,,0
+22,answered,ok,"আপনার বয়স ২৫ থেকে ৬০ বছর হতে হবে, মাসিক আয় অন্তত ৩০,০০০ টাকার স্যালারি ইম্প্লয়েটে কমপক্ষে ১ বছরের অভিজ্ঞতা থাকতে হবে এবং লোনের সর্বোচ্চ পরিমাণ ১০ লাখ টাকা।",0,"আপনার বয়স ২৫ থেকে ৬০ বছর হতে হবে, মাসিক আয় অন্তত ৩০,০০০ টাকার স্যালারি ইম্প্লয়েটে কমপক্ষে ১ বছরের অভিজ্ঞতা থাকতে হবে এবং লোনের সর্বোচ্চ পরিমাণ ১০ লাখ টাকা।",6.25
+23,answered,ok,"Debit card er shudhu ekbar free, por somvobor bochor ekbar BDT 500.",0,"Debit card er shudhu ekbar free, por somvobor bochor ekbar BDT 500.",8.09
+24,answered,ok,"NB Go app open kore Settings, Card, Reset PIN e jay. Ya ni nirbhor bank ATM e bhalo OTP diye reset korben.",0,"NB Go app open kore Settings, Card, Reset PIN e jay. Ya ni nirbhor bank ATM e bhalo OTP diye reset korben.",9.7
+25,answered,ok,"Branches Sunday to Thursday 10:00 AM to 4:00 PM khole neya hoy, Friday, Saturday, aur government holidays-e closed.",0,"Branches Sunday to Thursday 10:00 AM to 4:00 PM khole neya hoy, Friday, Saturday, aur government holidays-e closed.",9.25
+26,answered,ok,আপনার শাখায় নতুন নমিনীর আইডি কার্ড এবং ছবি দিয়ে একটি ফর্ম জমা দিন। একাউন্ট হোল্ডার এবং নমিনি উভয়েই স্বাক্ষর করতে হবে।,0,আপনার শাখায় নতুন নমিনীর আইডি কার্ড এবং ছবি দিয়ে একটি ফর্ম জমা দিন। একাউন্ট হোল্ডার এবং নমিনি উভয়েই স্বাক্ষর করতে হবে।,4.47
+27,answered,ok,আপনি তৎক্ষণাৎ ১৬৯৯৯ নম্বরের ২৪ ঘন্টার হটলাইনে ফোন করে কার্ড ব্লক করতে পারেন। বিলিংয়ের শাখায় ৭টি কাজের দিনের মধ্যে বিকল্প কার্ড সংগ্রহ করা যাবে এবং এর জন্য বিডিএসএন ৩০০ টাকা মূল্যবান হবে।,0,আপনি তৎক্ষণাৎ ১৬৯৯৯ নম্বরের ২৪ ঘন্টার হটলাইনে ফোন করে কার্ড ব্লক করতে পারেন। বিলিংয়ের শাখায় ৭টি কাজের দিনের মধ্যে বিকল্প কার্ড সংগ্রহ করা যাবে এবং এর জন্য বিডিএসএন ৩০০ টাকা মূল্যবান হবে।,6.31
+28,answered,ok,"Download NB Go, choose Register, enter your account number and registered mobile number, then enter the OTP we send you and set a 6-digit passcode.",0,"Download NB Go, choose Register, enter your account number and registered mobile number, then enter the OTP we send you and set a 6-digit passcode.",7.73
+29,answered,ok,"Receiving remittance is free. The money is credited within 24 hours of confirmation, to an account in your own name.",0,"Receiving remittance is free. The money is credited within 24 hours of confirmation, to an account in your own name.",8.28
+30,answered,ok,You can borrow up to 70% of the property value for a home loan.,0,You can borrow up to 70% of the property value for a home loan.,7.94
+31,answered,ok,"Credit card nite hole minimum income BDT 40,000 hote hobe.",0,"Credit card nite hole minimum income BDT 40,000 hote hobe.",8.32
+32,handoff,low_score,,0,,0
+33,handoff,low_score,,0,,0
+34,answered,ok,আপনি নিরভোর ব্যাংকের শাখায় এসে আপনার আইডি কার্ড নিয়ে আপডেট ফর্ম পূরণ করতে পারেন অথবা এনবি গো অ্যাপে ফেস ভেরিফিকেশনের মাধ্যমে আপডেট করতে পারেন।,0,আপনি নিরভোর ব্যাংকের শাখায় এসে আপনার আইডি কার্ড নিয়ে আপডেট ফর্ম পূরণ করতে পারেন অথবা এনবি গো অ্যাপে ফেস ভেরিফিকেশনের মাধ্যমে আপডেট করতে পারেন।,5.12
+35,answered,ok,Account 12 mahine beshi khali hoye dormant hoye jay. Aap apnar NID leye branch e jao ekhane deposit kore account reactivate kora jabe.,0,Account 12 mahine beshi khali hoye dormant hoye jay. Aap apnar NID leye branch e jao ekhane deposit kore account reactivate kora jabe.,8.95
+36,handoff,cannot_answer,CANNOT_ANSWER,0,,2.77
+37,handoff,cannot_answer,"Amar boish 17 thake, shobh personal loan er age limit 25 to 60 thake neya hoy. Student loan er kono information eita FAQ entry e na thake. CANNOT_ANSWER",0,,3.45
+38,answered,ok,KYC har 5 bochor porpor update korte hoy. Deadline e somvoboner SMS reminder jay. Branch e apnar NID o recent utility bill leye jay.,0,KYC har 5 bochor porpor update korte hoy. Deadline e somvoboner SMS reminder jay. Branch e apnar NID o recent utility bill leye jay.,8.26
+39,handoff,low_score,,0,,0
+40,answered,ok,"Visit your branch with your NID and fill in the closure form. If the account is closed within 6 months of opening, a fee of BDT 500 applies.",0,"Visit your branch with your NID and fill in the closure form. If the account is closed within 6 months of opening, a fee of BDT 500 applies.",8.91

@@ -1,0 +1,123 @@
+﻿set,id,question,language,wordlist,llm
+fresh,201,Kemne ekta FDR khola jay bolben?,banglish,banglish,banglish
+fresh,202,Amar card ta block hoye geche ekhon ki upay?,banglish,banglish,banglish
+fresh,203,Loan nile maashe koto tk kisti dite hobe?,banglish,banglish,banglish
+fresh,204,Branch e giye ki ki niye jete hobe?,banglish,banglish,banglish
+fresh,205,Tomader app ta download dilam kintu OTP ashche na,banglish,banglish,banglish
+fresh,206,Statement ta kothay pabo bolo to,banglish,banglish,banglish
+fresh,207,Dormant account ke abar chalu kora jabe?,banglish,banglish,banglish
+fresh,208,Bideshe thake taka pathaile charge kete ni?,banglish,banglish,banglish
+fresh,209,Credit card er limit koto hoy?,banglish,banglish,banglish
+fresh,210,Cheque ta harai gese atkaite hobe,banglish,banglish,banglish
+fresh,211,Ami student amar jonno kono account ache?,banglish,banglish,banglish
+fresh,212,Sms alert er khoroch koto bochore?,banglish,banglish,banglish
+fresh,213,Joint account e shami stri duijon thakte parbe?,banglish,en,banglish
+fresh,214,Nominee kake dewa jabe amar?,banglish,banglish,banglish
+fresh,215,ATM e PIN vul dile ki hobe?,banglish,banglish,banglish
+fresh,216,Transfer korle kotokkhon lage?,banglish,banglish,banglish
+fresh,217,Balance koto?,banglish,banglish,banglish
+fresh,218,Please amake ekta personal loan er details den,banglish,banglish,banglish
+fresh,219,How much taka can I send to another bank per day?,en,en,en
+fresh,220,Do I need to visit the branch to change my nominee?,en,en,en
+fresh,221,What is BEFTN?,en,en,en
+fresh,222,NB Go app not working on my phone,en,en,en
+fresh,223,Can I get a loan against my FDR?,en,en,en
+fresh,224,Where is your Gulshan branch?,en,en,en
+fresh,225,Hello,en,en,en
+fresh,226,My OTP is not coming please help,en,en,en
+fresh,227,Is Bkash transfer supported?,en,en,en
+fresh,228,What is the exchange rate for BDT to USD?,en,en,en
+fresh,229,ATM,en,en,en
+fresh,230,Tell me about Nirbhor Bank,en,en,en
+fresh,231,What is the fee in taka for a cheque book?,en,en,en
+fresh,232,আমার card এর PIN কিভাবে reset করব?,bn,bn,bn
+fresh,233,আমি loan নিতে চাই,bn,bn,bn
+dev,101,Savings account khulte ki ki kagoj lagbe?,banglish,banglish,banglish
+dev,102,Minimum balance na rakhle koto taka kete nei?,banglish,banglish,banglish
+dev,103,Card hariye gele kake phone korbo?,banglish,banglish,banglish
+dev,104,NB Go app e register korar niyom ki?,banglish,banglish,banglish
+dev,105,ATM theke ek bare koto taka tola jay?,banglish,banglish,banglish
+dev,106,Amar mobile number change korte chai ki korbo?,banglish,banglish,banglish
+dev,107,FDR bhenge felle interest koto pabo?,banglish,banglish,banglish
+dev,108,Home loan e property r koto percent dhar pawa jay?,banglish,banglish,banglish
+dev,109,Credit card er bill koto tarikhe dite hoy?,banglish,banglish,banglish
+dev,110,Remittance pathale ki fee lage?,banglish,banglish,banglish
+dev,111,Cheque book nite koto taka lage?,banglish,banglish,banglish
+dev,112,Account bondho korte chaile ki korte hobe?,banglish,banglish,banglish
+dev,113,Joint account e maximum koyjon holder thakte pare?,banglish,en,banglish
+dev,114,Bank statement print korle koto taka?,banglish,banglish,banglish
+dev,115,নমিনি বদলাতে ব্রাঞ্চে কী কী কাগজ লাগে?,bn,bn,bn
+dev,116,ডেবিট কার্ড প্রথম বছর ফ্রি কি?,bn,bn,bn
+dev,117,কার্ডের পিন রিসেট করার উপায় কী?,bn,bn,bn
+dev,118,শাখা কোন কোন দিন বন্ধ থাকে?,bn,bn,bn
+dev,119,পার্সোনাল লোনে প্রসেসিং ফি কত?,bn,bn,bn
+dev,120,ক্রেডিট কার্ডে দেরিতে বিল দিলে জরিমানা কত?,bn,bn,bn
+dev,121,অন্য ব্যাংকে টাকা পাঠালে কত দিনে পৌঁছায়?,bn,bn,bn
+dev,122,কত টাকা থেকে এফডিআর খোলা যায়?,bn,bn,bn
+dev,123,অ্যাকাউন্ট নিষ্ক্রিয় হয়ে গেলে আবার চালু করব কীভাবে?,bn,bn,bn
+dev,124,How long do I have to report a transaction I did not make?,en,en,en
+dev,125,What is the monthly income needed for a personal loan?,en,en,en
+dev,126,How much does it cost to stop a cheque?,en,en,en
+dev,127,How often must KYC be refreshed?,en,en,en
+dev,128,Amar ekta gold loan lagbe interest koto?,banglish,banglish,banglish
+dev,129,বিটকয়েন কেনা যাবে কি?,bn,bn,bn
+dev,130,Can you tell me my current account balance?,en,en,en
+dev,131,Amar bondhur loan er status ki?,banglish,banglish,banglish
+dev,132,Do you have an ATM at Dhaka airport?,en,en,en
+dev,133,Aj ki boro khobor?,banglish,banglish,banglish
+dev,134,আপনাদের ক্রেডিট কার্ডের সুদের হার কত?,bn,bn,bn
+test,1,Personal loan er interest rate koto?,banglish,banglish,banglish
+test,2,When will my BEFTN transfer reach the other bank?,en,en,en
+test,3,"Amar account theke ekta transaction ami korini, kothay janabo?",banglish,banglish,banglish
+test,4,What happens if I break my FDR early?,en,en,en
+test,5,What is the late payment fee on a credit card?,en,en,en
+test,6,ক্রেডিট কার্ডের বিল কবে দিতে হয়?,bn,bn,bn
+test,7,Ek din e koto taka transfer kora jay?,banglish,banglish,banglish
+test,8,How can I get a bank statement for the last six months?,en,en,en
+test,9,এসএমএস অ্যালার্টের জন্য কত চার্জ?,bn,bn,bn
+test,10,চেক বই পেতে কত দিন লাগে?,bn,bn,bn
+test,11,Will you waive the interest on my loan because my business made a loss?,en,en,en
+test,12,FDR korte minimum koto taka lage?,banglish,banglish,banglish
+test,13,আমার বন্ধুর অ্যাকাউন্টে কত টাকা আছে বলুন তো?,bn,bn,bn
+test,14,এটিএম থেকে দিনে সর্বোচ্চ কত টাকা তোলা যায়?,bn,bn,bn
+test,15,Can I open a joint account with my spouse?,en,en,en
+test,16,What documents do I need to open a savings account?,en,en,en
+test,17,Cheque er payment ta stop korbo kibhabe?,banglish,banglish,banglish
+test,18,আজকের স্বর্ণের দাম কত?,bn,bn,bn
+test,19,আপনাদের সিঙ্গাপুরে কোনো শাখা আছে কি?,bn,bn,bn
+test,20,সেভিংস অ্যাকাউন্টে সর্বনিম্ন কত টাকা রাখতে হবে?,bn,bn,bn
+test,21,Do you offer cryptocurrency trading accounts?,en,en,en
+test,22,পার্সোনাল লোনের জন্য কী যোগ্যতা লাগে?,bn,bn,bn
+test,23,Debit card er annual fee koto?,banglish,banglish,banglish
+test,24,"Card er PIN bhule gechi, reset korbo kibhabe?",banglish,banglish,banglish
+test,25,Branch gulo kon din kon shomoy khola thake?,banglish,banglish,banglish
+test,26,নমিনি পরিবর্তন করতে কী লাগবে?,bn,bn,bn
+test,27,"আমার কার্ড হারিয়ে গেছে, এখন কী করব?",bn,bn,bn
+test,28,How do I register for the NB Go mobile app?,en,en,en
+test,29,Is there a fee to receive remittance from abroad?,en,en,en
+test,30,How much of the property value can I borrow for a home loan?,en,en,en
+test,31,Credit card nite hole income koto hote hobe?,banglish,banglish,banglish
+test,32,What is today's dollar to taka exchange rate?,en,en,en
+test,33,Apnader bank er share kinle labh hobe?,banglish,banglish,banglish
+test,34,"আমার মোবাইল নম্বর বদলাতে চাই, কীভাবে করব?",bn,bn,bn
+test,35,Account dormant hoye gele ki korte hobe?,banglish,banglish,banglish
+test,36,Can you give me the phone number of the branch manager in Sylhet?,en,en,en
+test,37,"Amar boyosh 17, ami ki student loan pabo?",banglish,banglish,banglish
+test,38,KYC update koto bochor por por korte hoy?,banglish,banglish,banglish
+test,39,আমার ব্যবসার জন্য ভিসা সহায়তা পাওয়া যাবে?,bn,bn,bn
+test,40,How do I close my account?,en,en,en
+dimitri,301,"bhai debit card ta haraye gese, ki korbo ekhon na hole tk tulte parbo na",banglish,banglish,banglish
+dimitri,302,kmne FDR vanga jay? tk paboto?,banglish,banglish,banglish
+dimitri,303,acc er min bal koto rakhte hoy,banglish,banglish,banglish
+dimitri,304,plz home loan er interest koto % bolen,banglish,banglish,banglish
+dimitri,305,branch kkhn khola thake? shukrobar khola?,banglish,banglish,banglish
+dimitri,306,"mobile number change kora lagbe, app theke kora jabe ki?",banglish,banglish,banglish
+dimitri,307,nominee bodlate ki ki lagbe or korte hobe,banglish,banglish,banglish
+dimitri,308,bkash e remittance ashe kivabe?,banglish,banglish,banglish
+dimitri,309,acc statement tulte chai. ki korte hobe?,banglish,banglish,banglish
+dimitri,310,ATM pin vule gesi,banglish,en,banglish
+dimitri,311,atm limit?,en,en,en
+dimitri,312,cc bill ki bank app diye deya jay?,banglish,banglish,banglish
+dimitri,313,"hi, I lost my debit card",en,en,en
+dimitri,314,"karon chara taka kete nise, complain korbo kivabe",banglish,banglish,banglish
+dimitri,315,ক্রেডিট কার্ড এর লিমিট কত,bn,bn,bn

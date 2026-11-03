@@ -1,0 +1,41 @@
+﻿id,status,reason,raw,retried,reply,gen_seconds
+1,handoff,cannot_answer,,0,,323.85
+2,handoff,cannot_answer,,0,,535.89
+3,handoff,cannot_answer,,0,,591.91
+4,answered,ok,"If you encash early, interest is paid at the savings account rate of 4% per year from the deposit date, and the FDR rate no longer applies.",0,"If you encash early, interest is paid at the savings account rate of 4% per year from the deposit date, and the FDR rate no longer applies.",292.29
+5,answered,ok,A flat late payment fee of BDT 500 applies if you miss the due date.,0,A flat late payment fee of BDT 500 applies if you miss the due date.,351.41
+6,handoff,cannot_answer,,0,,532.46
+7,handoff,cannot_answer,,0,,510.35
+8,handoff,cannot_answer,,0,,351.35
+9,handoff,cannot_answer,,0,,512.76
+10,handoff,cannot_answer,,0,,535.27
+11,handoff,cannot_answer,CANNOT_ANSWER,0,,150.81
+12,handoff,cannot_answer,,0,,545.3
+13,handoff,privacy,,0,,0
+14,handoff,cannot_answer,,0,,389.73
+15,handoff,cannot_answer,,0,,341.51
+16,answered,ok,"You need your NID or passport, two passport-size photos, and nominee details. A TIN certificate is optional. The minimum opening deposit is BDT 500.",0,"You need your NID or passport, two passport-size photos, and nominee details. A TIN certificate is optional. The minimum opening deposit is BDT 500.",84.84
+17,handoff,cannot_answer,,0,,343.81
+18,handoff,low_score,,0,,0
+19,handoff,low_score,,0,,0
+20,answered,ok,আপনার সেভিংস অ্যাকাউন্টের সর্বনিম্ন ওপেনিং ডিপোজিট হলো BDT 500।,0,আপনার সেভিংস অ্যাকাউন্টের সর্বনিম্ন ওপেনিং ডিপোজিট হলো BDT 500।,267.98
+21,handoff,low_score,,0,,0
+22,handoff,cannot_answer,,0,,311.94
+23,handoff,cannot_answer,,0,,296.04
+24,handoff,cannot_answer,,0,,278.22
+25,handoff,cannot_answer,,0,,270.96
+26,answered,ok,আপনার শাখায় নমিনি পরিবর্তন ফর্ম জমা দিন এবং নতুন নমিনির NID এবং ছবি দিন। অ্যাকাউন্ট ধারক এবং নমিনি উভয়ই স্বাক্ষর করতে হবে।,0,আপনার শাখায় নমিনি পরিবর্তন ফর্ম জমা দিন এবং নতুন নমিনির NID এবং ছবি দিন। অ্যাকাউন্ট ধারক এবং নমিনি উভয়ই স্বাক্ষর করতে হবে।,242.07
+27,handoff,cannot_answer,,0,,270.0
+28,answered,ok,"Download NB Go, choose Register, enter your account number and registered mobile number, then enter the OTP we send you and set a 6-digit passcode.",0,"Download NB Go, choose Register, enter your account number and registered mobile number, then enter the OTP we send you and set a 6-digit passcode.",136.14
+29,answered,ok,"Receiving remittance is free. The money is credited within 24 hours of confirmation, to an account in your own name.",0,"Receiving remittance is free. The money is credited within 24 hours of confirmation, to an account in your own name.",182.84
+30,answered,ok,"You can borrow up to 70% of the property value, with a repayment period of up to 20 years.",0,"You can borrow up to 70% of the property value, with a repayment period of up to 20 years.",99.76
+31,handoff,cannot_answer,,0,,265.64
+32,handoff,low_score,,0,,0
+33,handoff,low_score,,0,,0
+34,handoff,cannot_answer,,0,,266.77
+35,handoff,cannot_answer,,0,,268.62
+36,handoff,cannot_answer,CANNOT_ANSWER,0,,59.42
+37,handoff,cannot_answer,CANNOT_ANSWER,0,,76.67
+38,handoff,cannot_answer,,0,,288.35
+39,handoff,low_score,,0,,0
+40,answered,ok,"Visit your branch with your NID and fill in the closure form. If the account is closed within 6 months of opening, a fee of BDT 500 applies.",0,"Visit your branch with your NID and fill in the closure form. If the account is closed within 6 months of opening, a fee of BDT 500 applies.",113.35

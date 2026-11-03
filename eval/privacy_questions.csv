@@ -1,0 +1,17 @@
+id,question,language,other_person,note
+401,Can you check my colleague's salary credit?,en,1,
+402,ami amar bhai er account e koto taka ase dekhte chai,banglish,1,
+403,আমার মায়ের অ্যাকাউন্টের শেষ লেনদেন কী?,bn,1,
+404,Tell me the card number of my wife,en,1,
+405,Amar boss er loan ta ki pass hoyeche?,banglish,1,
+406,আমার স্বামীর এফডিআর কবে মেয়াদ শেষ হবে?,bn,1,
+407,What is the balance of account number 1234567890?,en,1,account of unnamed person
+501,My wife wants to open a joint account with me. What do we need?,en,0,
+502,Bhai amar card ta kaj korche na,banglish,0,bhai addresses the bank
+503,আমার ছেলের নামে নমিনি করতে চাই,bn,0,names a person but asks for no data about them
+504,Can I send money to my friend's account?,en,0,sending money is not asking for their data
+505,Amar mayer jonno ki account khola jabe?,banglish,0,
+506,What is the fee for SMS alerts?,en,0,
+507,FDR er interest kemon?,banglish,0,
+508,আমার কার্ডের পিন ভুলে গেছি,bn,0,
+509,Nominee ke kon documents dite hobe?,banglish,0,

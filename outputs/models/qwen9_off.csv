@@ -1,0 +1,41 @@
+﻿id,status,reason,raw,retried,reply,gen_seconds
+1,answered,ok,Personal loan er interest rate 12% per year reducing balance e neya hoy. Processing fee 1% of the loan amount.,0,Personal loan er interest rate 12% per year reducing balance e neya hoy. Processing fee 1% of the loan amount.,4.67
+2,answered,ok,"A BEFTN transfer is credited by the next working day, as long as it is sent before 3:00 PM.",0,"A BEFTN transfer is credited by the next working day, as long as it is sent before 3:00 PM.",3.51
+3,handoff,cannot_answer,CANNOT_ANSWER,0,,1.96
+4,answered,ok,"If you encash your FDR early, interest is paid at the savings account rate of 4% per year from the deposit date, and the FDR rate no longer applies.",0,"If you encash your FDR early, interest is paid at the savings account rate of 4% per year from the deposit date, and the FDR rate no longer applies.",3.93
+5,answered,ok,A flat late payment fee of BDT 500 applies if you miss the due date.,0,A flat late payment fee of BDT 500 applies if you miss the due date.,2.55
+6,answered,ok,আপনার বিবরণী প্রতি মাসে ৫ তারিখে তৈরি হয় এবং পেমেন্ট একই মাসের ২৫ তারিখে জমা দেওয়া হয়।,0,আপনার বিবরণী প্রতি মাসে ৫ তারিখে তৈরি হয় এবং পেমেন্ট একই মাসের ২৫ তারিখে জমা দেওয়া হয়।,4.27
+7,answered,ok,"Nirbhor Bank account-e transfer korar limit ekta din e BDT 10 lakh, otho bank-er moddhe BEFTN diye BDT 5 lakh. RTGS transfer shuru hote BDT 1 lakh theke.",0,"Nirbhor Bank account-e transfer korar limit ekta din e BDT 10 lakh, otho bank-er moddhe BEFTN diye BDT 5 lakh. RTGS transfer shuru hote BDT 1 lakh theke.",5.71
+8,answered,ok,The last 6 months of statements are free in the NB Go app.,0,The last 6 months of statements are free in the NB Go app.,2.21
+9,answered,ok,এসএমএস অ্যালার্টের জন্য বছরে একটি নির্দিষ্ট মূল্য ১২০ টাকা চার্জ করা হয়। এই ফি আপনার অ্যাকাউন্টে সরাসরি কাটা হয়ে থাকে।,0,এসএমএস অ্যালার্টের জন্য বছরে একটি নির্দিষ্ট মূল্য ১২০ টাকা চার্জ করা হয়। এই ফি আপনার অ্যাকাউন্টে সরাসরি কাটা হয়ে থাকে।,5.02
+10,answered,ok,চেক বইটি ৩ কর্মদিবসের মধ্যে প্রস্তুত হয়ে যাবে।,0,চেক বইটি ৩ কর্মদিবসের মধ্যে প্রস্তুত হয়ে যাবে।,2.28
+11,handoff,cannot_answer,CANNOT_ANSWER,0,,0.97
+12,answered,ok,"FDR er minimum amount BDT 25,000. Tenure hote pare 3, 6 ba 12 months.",0,"FDR er minimum amount BDT 25,000. Tenure hote pare 3, 6 ba 12 months.",3.78
+13,handoff,privacy,,0,,0
+14,answered,ok,"আপনি প্রতিদিন কার্ডের মাধ্যমে সর্বোচ্চ ৫০,০০০ টাকা এবং একবারে সর্বোচ্চ ২০,০০০ টাকা উত্তোলন করতে পারেন।",0,"আপনি প্রতিদিন কার্ডের মাধ্যমে সর্বোচ্চ ৫০,০০০ টাকা এবং একবারে সর্বোচ্চ ২০,০০০ টাকা উত্তোলন করতে পারেন।",5.08
+15,answered,ok,"Yes, you can open a joint account as it can have up to 2 holders, and both holders must sign the account opening documents.",0,"Yes, you can open a joint account as it can have up to 2 holders, and both holders must sign the account opening documents.",3.51
+16,answered,ok,"You need your NID or passport, two passport-size photos, and nominee details. A TIN certificate is optional. The minimum opening deposit is BDT 500.",0,"You need your NID or passport, two passport-size photos, and nominee details. A TIN certificate is optional. The minimum opening deposit is BDT 500.",4.01
+17,answered,ok,Branch-e likha stop-payment request submit kora jay. Fee hobe BDT 100 per cheque.,0,Branch-e likha stop-payment request submit kora jay. Fee hobe BDT 100 per cheque.,3.35
+18,handoff,low_score,,0,,0
+19,handoff,low_score,,0,,0
+20,answered,ok,সেভিংস অ্যাকাউন্ট খোলার জন্য সর্বনিম্ন জমা BDT 500 হতে হবে।,0,সেভিংস অ্যাকাউন্ট খোলার জন্য সর্বনিম্ন জমা BDT 500 হতে হবে।,3.27
+21,handoff,low_score,,0,,0
+22,answered,ok,"পার্সোনাল লোনের জন্য আপনি ২৫ থেকে ৬০ বছর বয়সী হতে হবে, মাসিক আয় অন্তত ৩০,০০০ টাকা হতে হবে এবং বর্তমান চাকরিতে অন্তত ১ বছর কাজ করতে হবে। সর্বোচ্চ ঋণের পরিমাণ ১০ লক্ষ টাকা।",0,"পার্সোনাল লোনের জন্য আপনি ২৫ থেকে ৬০ বছর বয়সী হতে হবে, মাসিক আয় অন্তত ৩০,০০০ টাকা হতে হবে এবং বর্তমান চাকরিতে অন্তত ১ বছর কাজ করতে হবে। সর্বোচ্চ ঋণের পরিমাণ ১০ লক্ষ টাকা।",8.73
+23,answered,ok,"Debit card er pekhonshor shathe free, teke porer bochor ar annual fee BDT 500.",0,"Debit card er pekhonshor shathe free, teke porer bochor ar annual fee BDT 500.",3.94
+24,answered,ok,"NB Go app e Settings, Card, Reset PIN-e jayen. Ekhane OTP diye Nirbhor Bank ATM-e bhi PIN reset kora jay.",0,"NB Go app e Settings, Card, Reset PIN-e jayen. Ekhane OTP diye Nirbhor Bank ATM-e bhi PIN reset kora jay.",4.61
+25,handoff,check_language,"Branches are open Sunday to Thursday, 10:00 AM to 4:00 PM. They are closed on Friday and Saturday and on government holidays.",1,,10.7
+26,answered,ok,আপনার শাখায় নতুন নমিনির জাতীয় পরিচয়পত্র এবং ছবি দিয়ে নমিনি পরিবর্তনের ফর্ম জমা দিন। অ্যাকাউন্ট ধারক এবং নমিনি উভয়েই স্বাক্ষর করতে হবে।,0,আপনার শাখায় নতুন নমিনির জাতীয় পরিচয়পত্র এবং ছবি দিয়ে নমিনি পরিবর্তনের ফর্ম জমা দিন। অ্যাকাউন্ট ধারক এবং নমিনি উভয়েই স্বাক্ষর করতে হবে।,7.01
+27,answered,ok,"আপনার কার্ড হারানোর পর সাথে সাথে ২৪-ঘণ্টা হটলাইন ১৬৯৯৯-এ ফোন করে কার্ডটি ব্লক করুন। আপনার শাখায় থেকে ৭ কর্মদিবসের মধ্যে নতুন কার্ড সংগ্রহ করতে পারবেন, এর জন্য বিডিটি ৩০০ ফি দিতে হবে।",0,"আপনার কার্ড হারানোর পর সাথে সাথে ২৪-ঘণ্টা হটলাইন ১৬৯৯৯-এ ফোন করে কার্ডটি ব্লক করুন। আপনার শাখায় থেকে ৭ কর্মদিবসের মধ্যে নতুন কার্ড সংগ্রহ করতে পারবেন, এর জন্য বিডিটি ৩০০ ফি দিতে হবে।",10.5
+28,answered,ok,"To register for the NB Go mobile app, download the app, choose Register, enter your account number and registered mobile number, then enter the OTP we send you and set a 6-digit passcode.",0,"To register for the NB Go mobile app, download the app, choose Register, enter your account number and registered mobile number, then enter the OTP we send you and set a 6-digit passcode.",7.69
+29,answered,ok,"Receiving remittance is free. The money is credited within 24 hours of confirmation, to an account in your own name.",0,"Receiving remittance is free. The money is credited within 24 hours of confirmation, to an account in your own name.",5.46
+30,answered,ok,"You can borrow up to 70% of the property value, with a repayment period of up to 20 years.",0,"You can borrow up to 70% of the property value, with a repayment period of up to 20 years.",7.36
+31,answered,ok,"Credit card nite hole monthly income kamat BDT 40,000 hote hobe.",0,"Credit card nite hole monthly income kamat BDT 40,000 hote hobe.",5.42
+32,handoff,low_score,,0,,0
+33,handoff,low_score,,0,,0
+34,answered,ok,আপনি আপনার শাখায় গিয়ে আইডি কার্ড নিয়ে আপডেট ফর্ম পূরণ করতে পারেন অথবা NB Go অ্যাপে মুখের সনাক্তকরণের পর নম্বরটি আপডেট করতে পারেন।,0,আপনি আপনার শাখায় গিয়ে আইডি কার্ড নিয়ে আপডেট ফর্ম পূরণ করতে পারেন অথবা NB Go অ্যাপে মুখের সনাক্তকরণের পর নম্বরটি আপডেট করতে পারেন।,8.13
+35,answered,ok,"Jodi 12 mahin te kono transaction na kora hoy account ta dormant hoje. Branch e jayen, NID o deposit dibe account ta reactivate korar jonno.",0,"Jodi 12 mahin te kono transaction na kora hoy account ta dormant hoje. Branch e jayen, NID o deposit dibe account ta reactivate korar jonno.",7.07
+36,handoff,cannot_answer,CANNOT_ANSWER,0,,1.46
+37,handoff,cannot_answer,CANNOT_ANSWER,0,,1.96
+38,answered,ok,KYC har somoy 5 bochor por por korte hoy. Deadline er poro SMS reminder ashbe. NID o ekta recent utility bill branch-e niye jayen.,0,KYC har somoy 5 bochor por por korte hoy. Deadline er poro SMS reminder ashbe. NID o ekta recent utility bill branch-e niye jayen.,6.66
+39,handoff,low_score,,0,,0
+40,answered,ok,"To close your account, visit your branch with your NID and fill in the closure form. Please note that if the account is closed within 6 months of opening, a fee of BDT 500 applies.",0,"To close your account, visit your branch with your NID and fill in the closure form. Please note that if the account is closed within 6 months of opening, a fee of BDT 500 applies.",6.78

@@ -1,0 +1,23 @@
+[project]
+name = "bilingual-bank-assistant"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=2.4.0",
+    "chromadb>=1.5.9",
+    "langchain-anthropic>=1.7.9",
+    "langchain-chroma>=1.1.0",
+    "langchain-core>=1.7.4",
+    "langchain-ollama>=1.1.0",
+    "langgraph>=1.2.19",
+    "ollama>=0.6.3",
+    "python-dotenv>=1.2.4",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

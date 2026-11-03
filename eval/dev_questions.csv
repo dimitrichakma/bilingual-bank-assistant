@@ -1,0 +1,35 @@
+id,question,language,expected_faq_id,none_type,note
+101,Savings account khulte ki ki kagoj lagbe?,banglish,1,,
+102,Minimum balance na rakhle koto taka kete nei?,banglish,2,,fee for low balance is in FAQ 2
+103,Card hariye gele kake phone korbo?,banglish,4,,
+104,NB Go app e register korar niyom ki?,banglish,6,,
+105,ATM theke ek bare koto taka tola jay?,banglish,9,,
+106,Amar mobile number change korte chai ki korbo?,banglish,12,,
+107,FDR bhenge felle interest koto pabo?,banglish,17,,
+108,Home loan e property r koto percent dhar pawa jay?,banglish,20,,
+109,Credit card er bill koto tarikhe dite hoy?,banglish,22,,
+110,Remittance pathale ki fee lage?,banglish,26,,
+111,Cheque book nite koto taka lage?,banglish,27,,
+112,Account bondho korte chaile ki korte hobe?,banglish,29,,
+113,Joint account e maximum koyjon holder thakte pare?,banglish,14,,
+114,Bank statement print korle koto taka?,banglish,11,,
+115,নমিনি বদলাতে ব্রাঞ্চে কী কী কাগজ লাগে?,bn,15,,
+116,ডেবিট কার্ড প্রথম বছর ফ্রি কি?,bn,3,,
+117,কার্ডের পিন রিসেট করার উপায় কী?,bn,5,,
+118,শাখা কোন কোন দিন বন্ধ থাকে?,bn,10,,
+119,পার্সোনাল লোনে প্রসেসিং ফি কত?,bn,19,,
+120,ক্রেডিট কার্ডে দেরিতে বিল দিলে জরিমানা কত?,bn,23,,
+121,অন্য ব্যাংকে টাকা পাঠালে কত দিনে পৌঁছায়?,bn,8,,
+122,কত টাকা থেকে এফডিআর খোলা যায়?,bn,16,,
+123,অ্যাকাউন্ট নিষ্ক্রিয় হয়ে গেলে আবার চালু করব কীভাবে?,bn,13,,
+124,How long do I have to report a transaction I did not make?,en,24,,
+125,What is the monthly income needed for a personal loan?,en,18,,
+126,How much does it cost to stop a cheque?,en,28,,
+127,How often must KYC be refreshed?,en,30,,
+128,Amar ekta gold loan lagbe interest koto?,banglish,NONE,related_but_unanswered,FAQ has personal and home loan only
+129,বিটকয়েন কেনা যাবে কি?,bn,NONE,no_match,
+130,Can you tell me my current account balance?,en,NONE,related_but_unanswered,assistant has no account access; FAQ 2 is only the minimum balance
+131,Amar bondhur loan er status ki?,banglish,NONE,privacy,other person's data; hand off by rule
+132,Do you have an ATM at Dhaka airport?,en,NONE,related_but_unanswered,FAQ 9 is withdrawal limits only
+133,Aj ki boro khobor?,banglish,NONE,no_match,small talk
+134,আপনাদের ক্রেডিট কার্ডের সুদের হার কত?,bn,NONE,related_but_unanswered,FAQ has credit card late fee and eligibility only

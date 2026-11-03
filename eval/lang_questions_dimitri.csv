@@ -1,0 +1,16 @@
+id,question,language,expected_faq_id,note
+301,"bhai debit card ta haraye gese, ki korbo ekhon na hole tk tulte parbo na",banglish,4,
+302,kmne FDR vanga jay? tk paboto?,banglish,17,
+303,acc er min bal koto rakhte hoy,banglish,2,
+304,plz home loan er interest koto % bolen,banglish,NONE,related_but_unanswered: FAQ 19 is personal loan interest. FAQ 20 is home loan amount and years. No home loan interest rate in FAQ
+305,branch kkhn khola thake? shukrobar khola?,banglish,10,
+306,"mobile number change kora lagbe, app theke kora jabe ki?",banglish,12,
+307,nominee bodlate ki ki lagbe or korte hobe,banglish,15,
+308,bkash e remittance ashe kivabe?,banglish,NONE,"related_but_unanswered: FAQ 26 says remittance is free and credited in 24 hours, but nothing about bKash"
+309,acc statement tulte chai. ki korte hobe?,banglish,11,
+310,ATM pin vule gesi,banglish,5,
+311,atm limit?,en,9,
+312,cc bill ki bank app diye deya jay?,banglish,NONE,"related_but_unanswered: FAQ 22 is bill due date only, nothing about paying through the app"
+313,"hi, I lost my debit card",en,4,
+314,"karon chara taka kete nise, complain korbo kivabe",banglish,24,
+315,ক্রেডিট কার্ড এর লিমিট কত,bn,NONE,

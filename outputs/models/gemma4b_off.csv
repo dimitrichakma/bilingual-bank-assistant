@@ -1,0 +1,41 @@
+﻿id,status,reason,raw,retried,reply,gen_seconds
+1,handoff,check_language,Interest rate 12 percent per year. There is a processing fee of 1 percent of the loan amount.,1,,4.05
+2,answered,ok,"A BEFTN transfer is credited by the next working day, as long as it is sent before 3:00 PM.",0,"A BEFTN transfer is credited by the next working day, as long as it is sent before 3:00 PM.",1.88
+3,handoff,check_language,Report it within 30 days by calling 16999 or visiting your branch. We investigate within 15 working days and tell you the outcome.,1,,5.1
+4,answered,ok,"If you encash early, interest is paid at the savings account rate of 4% per year from the deposit date, and the FDR rate no longer applies.",0,"If you encash early, interest is paid at the savings account rate of 4% per year from the deposit date, and the FDR rate no longer applies.",2.16
+5,handoff,check_language,A flat late payment fee of BDT 500 applies if you miss the due date.,1,,3.44
+6,answered,ok,আপনার ক্রেডিট কার্ডের বিল প্রতি মাসের ৫ তারিখে তৈরি হয় এবং এর পেমেন্ট একই মাসের ২৫ তারিখে দিতে হয়।,0,আপনার ক্রেডিট কার্ডের বিল প্রতি মাসের ৫ তারিখে তৈরি হয় এবং এর পেমেন্ট একই মাসের ২৫ তারিখে দিতে হয়।,1.74
+7,handoff,check_language,Transfers to Nirbhor Bank accounts: up to BDT 10 lakh per day. Transfers to other banks through BEFTN: up to BDT 5 lakh per day. RTGS transfers start from BDT 1 lakh.,1,,6.83
+8,answered,ok,"The last 6 months of statements are free in the NB Go app. A printed, stamped statement from a branch costs BDT 100 per statement.",0,"The last 6 months of statements are free in the NB Go app. A printed, stamped statement from a branch costs BDT 100 per statement.",2.64
+9,answered,ok,"এসএমএস অ্যালার্টের জন্য BDT 120 প্রতি বছর চার্জ করা হয়, এবং এটা আপনার অ্যাকাউন্টে যোগ হবে। এটি Nirbhor Bank এর NB Go-এর মাধ্যমে পাওয়া যায়।",0,"এসএমএস অ্যালার্টের জন্য BDT 120 প্রতি বছর চার্জ করা হয়, এবং এটা আপনার অ্যাকাউন্টে যোগ হবে। এটি Nirbhor Bank এর NB Go-এর মাধ্যমে পাওয়া যায়।",2.43
+10,answered,ok,3 কার্যদিবসে আপনার শাখা অথবা NB Go অ্যাপ থেকে চেকের বই পেতে পারেন। 25-পাতার চেকের বইটির দাম BDT 250।,0,3 কার্যদিবসে আপনার শাখা অথবা NB Go অ্যাপ থেকে চেকের বই পেতে পারেন। 25-পাতার চেকের বইটির দাম BDT 250।,2.23
+11,handoff,cannot_answer,CANNOT_ANSWER,0,,1.32
+12,handoff,check_language,"Minimum 25000 taka lage. Tenures 3, 6 or 12 months hoy. Current rates: 7.50% 3 months, 8.25% 6 months, 9.00% 12 months per year.",1,,6.51
+13,handoff,privacy,,0,,0
+14,answered,ok,"আপনি প্রতিদিন প্রতি কার্ডে BDT 50,000 পর্যন্ত তুলতে পারবেন। এছাড়াও, একটি লেনদেনে BDT 20,000 পর্যন্ত তোলা যায়। - Nirbhor Bank",0,"আপনি প্রতিদিন প্রতি কার্ডে BDT 50,000 পর্যন্ত তুলতে পারবেন। এছাড়াও, একটি লেনদেনে BDT 20,000 পর্যন্ত তোলা যায়। - Nirbhor Bank",2.57
+15,answered,ok,"Yes. A joint account can have up to 2 holders, and both holders must sign the account opening documents.",0,"Yes. A joint account can have up to 2 holders, and both holders must sign the account opening documents.",2.26
+16,answered,ok,"You need your NID or passport, two passport-size photos, and nominee details. A TIN certificate is optional. The minimum opening deposit is BDT 500.",0,"You need your NID or passport, two passport-size photos, and nominee details. A TIN certificate is optional. The minimum opening deposit is BDT 500.",2.39
+17,answered,ok,Submit a written stop-payment request at your branch. The fee is BDT 100 per cheque.,0,Submit a written stop-payment request at your branch. The fee is BDT 100 per cheque.,2.69
+18,handoff,low_score,,0,,0
+19,handoff,low_score,,0,,0
+20,answered,ok,"সেভিংস অ্যাকাউন্টে কমপক্ষে BDT 500 রাখতে হবে। এছাড়াও, আপনার NID অথবা পাসপোর্ট, দুটি পাসপোর্ট সাইজের ছবি এবং nominees-এর তথ্য লাগবে। TIN সার্টিফিকেট চাইলে দিতে পারেন, এটা বাধ্যতামূলক নয়।",0,"সেভিংস অ্যাকাউন্টে কমপক্ষে BDT 500 রাখতে হবে। এছাড়াও, আপনার NID অথবা পাসপোর্ট, দুটি পাসপোর্ট সাইজের ছবি এবং nominees-এর তথ্য লাগবে। TIN সার্টিফিকেট চাইলে দিতে পারেন, এটা বাধ্যতামূলক নয়।",2.65
+21,handoff,low_score,,0,,0
+22,answered,ok,"আপনি যদি ২৫ থেকে ৬০ বছর বয়সের মধ্যে হয়ে থাকেন, মাসে BDT 30,000 বা তার বেশি আয় করেন এবং কমপক্ষে ১ বছর আপনার বর্তমান চাকরিতে কাজ করেন, তাহলে আপনি পার্সোনাল লোনের জন্য যোগ্য। সর্বোচ্চ লোনের পরিমাণ BDT 10 লক্ষ।",0,"আপনি যদি ২৫ থেকে ৬০ বছর বয়সের মধ্যে হয়ে থাকেন, মাসে BDT 30,000 বা তার বেশি আয় করেন এবং কমপক্ষে ১ বছর আপনার বর্তমান চাকরিতে কাজ করেন, তাহলে আপনি পার্সোনাল লোনের জন্য যোগ্য। সর্বোচ্চ লোনের পরিমাণ BDT 10 লক্ষ।",3.47
+23,answered,ok,"First year free. From the second year, the annual fee is 500 BDT.",1,"First year free. From the second year, the annual fee is 500 BDT.",5.64
+24,handoff,check_language,"Open the NB Go app, go to Settings, then Card, then Reset PIN. You can also reset it at any Nirbhor Bank ATM using an OTP sent to your registered number.",1,,6.98
+25,handoff,check_language,"Branches are open Sunday to Thursday, 10:00 AM to 4:00 PM. They are closed on Friday and Saturday and on government holidays.",1,,6.97
+26,answered,ok,সদস্য এবং নমিনি উভয়েকেই স্বাক্ষর করতে হবে। নতুন নমিনির এনআইডি ও ছবি জমা দিতে হবে।,0,সদস্য এবং নমিনি উভয়েকেই স্বাক্ষর করতে হবে। নতুন নমিনির এনআইডি ও ছবি জমা দিতে হবে।,2.75
+27,answered,ok,16999 নম্বরে ফোন করুন এবং কার্ডটি ব্লক করুন। আপনার নিকটস্থ শাখা থেকে 7 কার্যদিবসের মধ্যে BDT 300 ফি-এর বিনিময়ে নতুন কার্ড সংগ্রহ করতে পারবেন।,0,16999 নম্বরে ফোন করুন এবং কার্ডটি ব্লক করুন। আপনার নিকটস্থ শাখা থেকে 7 কার্যদিবসের মধ্যে BDT 300 ফি-এর বিনিময়ে নতুন কার্ড সংগ্রহ করতে পারবেন।,3.29
+28,answered,ok,"Download NB Go, choose Register, enter your account number and registered mobile number, then enter the OTP we send you and set a 6-digit passcode.",0,"Download NB Go, choose Register, enter your account number and registered mobile number, then enter the OTP we send you and set a 6-digit passcode.",3.39
+29,answered,ok,"Receiving remittance is free. The money is credited within 24 hours of confirmation, to an account in your own name.",0,"Receiving remittance is free. The money is credited within 24 hours of confirmation, to an account in your own name.",2.93
+30,answered,ok,"You can borrow up to 70% of the property value, with a repayment period of up to 20 years.",0,"You can borrow up to 70% of the property value, with a repayment period of up to 20 years.",3.35
+31,answered,ok,You must be 40000 taka or more monthly income.,0,You must be 40000 taka or more monthly income.,5.0
+32,handoff,low_score,,0,,0
+33,handoff,low_score,,0,,0
+34,answered,ok,"আপনার আইডি এবং আপডেট ফর্ম নিয়ে শাখাটিতে যান, অথবা এনবি গো অ্যাপে ফেস ভেরিফিকেশন করে পরিবর্তন করুন।",0,"আপনার আইডি এবং আপডেট ফর্ম নিয়ে শাখাটিতে যান, অথবা এনবি গো অ্যাপে ফেস ভেরিফিকেশন করে পরিবর্তন করুন।",2.89
+35,handoff,check_language,An account with no customer transaction for 12 months becomes dormant. Visit your branch with your NID and make a deposit to reactivate it.,1,,10.42
+36,handoff,cannot_answer,CANNOT_ANSWER,0,,2.22
+37,handoff,check_language,NOT ELIGIBLE. You must be 25 to 60 years old.,1,,6.13
+38,answered,ok,KYC proti bochor ekbar kete neya hoy 5 bochor por. We will send you an SMS reminder before the deadline. Bring your NID and a recent utility bill to your branch.,0,KYC proti bochor ekbar kete neya hoy 5 bochor por. We will send you an SMS reminder before the deadline. Bring your NID and a recent utility bill to your branch.,4.98
+39,handoff,low_score,,0,,0
+40,answered,ok,"Visit your branch with your NID and fill in the closure form. If the account is closed within 6 months of opening, a fee of BDT 500 applies.",0,"Visit your branch with your NID and fill in the closure form. If the account is closed within 6 months of opening, a fee of BDT 500 applies.",4.96

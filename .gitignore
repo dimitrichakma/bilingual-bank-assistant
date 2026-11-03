@@ -1,0 +1,9 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+chroma_db/
+.DS_Store
+outputs/qwen9_baseline/
+outputs/langchain_baseline/
+docs/LOOM_SCRIPT.md
