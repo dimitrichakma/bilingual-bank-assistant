@@ -65,6 +65,10 @@ Fixed steps, one after another. The code decides at the gate, not the model.
 
 ![How the assistant answers one question: six fixed steps, with one handoff path to a person](docs/images/pipeline.png)
 
+The same pipeline as it is built in code, with LangGraph. Two small graphs: the main one, and the reply graph that writes, checks and can retry once.
+
+![The assistant as a LangGraph pipeline: detect, privacy, retrieve, gate, answer, with the reply graph write, check and mark_retry](docs/images/langgraph_pipeline.png)
+
 <details>
 <summary>The same pipeline as editable Mermaid text</summary>
 
