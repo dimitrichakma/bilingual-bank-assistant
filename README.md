@@ -63,6 +63,11 @@ when the 16 GB machine runs out of memory, the bot prints a short sorry message 
 
 Fixed steps, one after another. The code decides at the gate, not the model.
 
+![How the assistant answers one question: six fixed steps, with one handoff path to a person](docs/images/pipeline.png)
+
+<details>
+<summary>The same pipeline as editable Mermaid text</summary>
+
 ```mermaid
 flowchart TD
     Q[Customer question] --> D[1. Detect language: en, bn or banglish]
@@ -77,6 +82,8 @@ flowchart TD
     C -->|CANNOT_ANSWER, or a check fails| H
     C -->|passes| A[Reply to the customer]
 ```
+
+</details>
 
 Why each design choice:
 
