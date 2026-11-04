@@ -3,49 +3,38 @@
 Dimitri, BIAI Round 2, Task 2 | Code: https://github.com/dimitrichakma/bilingual-bank-assistant
 
 ## What I built
-A chat assistant that answers in English, Bangla or Banglish using only the 30 entry bank FAQ. It runs
-fully on my MacBook M4 (16 GB) with `qwen3.5:9b-mlx` through Ollama, built with LangChain and LangGraph.
-The steps are fixed: detect language, check for questions about other people, find the best FAQ entry
-(bge-m3 and ChromaDB), a code gate (score 0.50), the model writes the reply from that one entry, then a
-check that every number is in the FAQ and the language matches. Anything unsure hands off with "I don't
-know, let me connect you to a person" in the customer's language.
+I built a chat assistant for a bank. Customers write in English, Bangla or Banglish (Bangla typed with English letters), and the assistant replies in the same language. It answers only from the bank's list of 30 questions and answers (the FAQ), and it runs on my own MacBook M4 (16 GB), so no customer text goes to an outside service. The model is `qwen3.5:9b-mlx`, run through Ollama. Search uses `bge-m3` and ChromaDB, and LangChain and LangGraph connect the steps.
+
+Every question goes through the same steps, in this order:
+1. Find the language, and check if the customer asks about someone else's account. If yes, pass them to a person.
+2. Find the best matching FAQ entry. If the match is weak, my code passes the customer to a person.
+3. The model writes a reply using only that one FAQ entry.
+4. I check the reply: every number must be in the FAQ entry, and the language must match. If anything looks wrong, the customer gets "I don't know, let me connect you to a person" in their own language.
 
 ## How I tested it
-The 40 official questions (30 covered, 10 not), unchanged. I marked every answer by hand; a wrong or
-garbled word counts as wrong. I also used 49 extra practice questions, 122 for language detection and 16
-for privacy. The same 40 ran on `claude-sonnet-5-5` with the same FAQ, prompt, checks and scoring.
+I used the 40 official questions unchanged: 30 are in the FAQ and 10 are not. I marked every answer by hand, and a wrong or strange word counts as wrong. I also made 49 practice questions, 122 for language detection and 16 for privacy. The online model `claude-sonnet-5-5` got the same 40 questions, FAQ, prompt and marking.
 
-## Results (40 questions)
-| | Local qwen 9B | Online Sonnet 5.5 |
+## Results
+| | Local: qwen3.5:9b-mlx | Online: claude-sonnet-5-5 |
 |---|---|---|
-| Correct, 30 covered (hand marked) | 22 of 30 | 27 of 30 |
-| English / Bangla / Banglish | 10/10, 7/9, 5/11 | 10/10, 6/9, 11/11 |
-| Correct "I don't know" (10 not covered) | 10 of 10 | 10 of 10 |
-| Covered questions wrongly handed off | 2 of 30 | 3 of 30 |
-| Speed, average and slowest | 4.7 s and 11.4 s | 2.4 s and 4.0 s |
+| Correct answers (30 questions in the FAQ, hand marked) | 22 of 30 | 27 of 30 |
+| Correct answers by language: English / Bangla / Banglish | 10/10, 7/9, 5/11 | 10/10, 6/9, 11/11 |
+| Correct "I don't know" (10 questions not in the FAQ) | 10 of 10 | 10 of 10 |
+| In the FAQ but wrongly passed to a person | 2 of 30 | 3 of 30 |
+| Time per reply, average and slowest | 4.7 s and 11.4 s | 2.4 s and 4.0 s |
 
-Local time is the whole pipeline, online time the reply step only. The right FAQ entry was found for
-29 of 30 covered. Language detection by the model was 122 of 122 (a word list: 119). Privacy check 16 of
-16. A Bangla rewrite for Banglish search got 25 of 25 against 22 of 25 without it.
+Local time covers the whole assistant. Online time covers only the reply writing step. Other things I measured:
+* Finding the right FAQ entry worked for 29 of 30 FAQ questions.
+* Finding the language was right for all 122 test questions (a simple word list got 119), and the check for someone else's account was right for all 16.
+* For Banglish, I also translate the question into Bangla and search with both versions. This found the right entry for 25 of 25 questions, against 22 of 25 with the original only.
 
-Model choice: thinking mode took about 300 s per reply, a 4B qwen wrote worse Banglish, Gemma 3 often
-replied in English, and Gemma 4 was 4 times faster but wrongly handed off 9 of 38 extra questions.
-I kept qwen 9B.
+I tried other local models for writing replies. `qwen3.5:9b-mlx` with thinking on took about 300 seconds per reply, `qwen3.5:4b` wrote worse Banglish, `gemma3:4b` often answered in English, and `gemma4:e4b-mlx` was faster but wrongly passed 9 of 38 extra questions to a person. I kept `qwen3.5:9b-mlx` with thinking off.
 
 ## What does not work well
-1. **Banglish quality.** Only 5 of 11 right locally: odd words ("pekhonshor"), and Q38 said the SMS
-   comes after the deadline, not before. Sonnet got 11 of 11.
-2. **Meaning errors the checks miss.** Q6 said payment is due next month, the FAQ says the same month.
-   The number check passes because 25 is in the FAQ.
-3. **One retrieval miss.** Q20 picked the account opening entry, and the local model gave the wrong fact.
-4. **A thin gate.** The top score of an uncovered question and the lowest of a covered one are both 0.486,
-   with the threshold at 0.50. Related but unanswered questions score 0.51 to 0.60, so Q11, Q36 and Q37
-   rely on the model saying `CANNOT_ANSWER`, which is not guaranteed.
-5. **Not repeatable.** Wording changed between runs even at temperature 0, so my marks fit the final
-   run only. The 16 GB machine stalled twice (207 s and 390 s) when memory was full.
-6. **Testing limits.** I tuned prompts after seeing the practice and test results, so the numbers are
-   probably a little optimistic. 40 questions is small. Fine tuning (optional) was not done.
+1. **Banglish answers are often poor.** The local model got only 5 of 11 Banglish questions right. It sometimes used strange words, like "pekhonshor", and in Q38 it put the SMS reminder after the deadline, not before. The online model got all 11.
+2. **A wrong reply can slip through.** In Q6 the reply said the bill is due next month, but the FAQ says the same month. My check only looks at numbers, and 25 was right, so it got through.
+3. **Once it looked at the wrong FAQ entry.** For Q20 (minimum savings balance) the search picked the account opening entry, so the answer gave the opening deposit instead.
+4. **The "I don't know" score rule is not a clean line.** Every question gets a match score from 0 to 1 for how close it is to an FAQ entry. If the best score is below 0.50, the assistant says "I don't know". This works for unrelated questions, like the gold price, which scored 0.486 or less. But one real practice question, written in slang, also scored 0.486 and was blocked by mistake. The bigger problem is questions that sound like an FAQ topic but are not answered by it. Q11, Q36 and Q37 scored 0.51 to 0.60, so the score could not stop them. Only the model saying it could not answer did, which is not guaranteed.
+5. **My testing has limits.** The wording changed between runs even with randomness off, so my marks match the final run only. I changed prompts after seeing the test results, so my scores may look a bit better than on new questions. 40 questions is a small sample, I did not do the optional fine tuning, and the laptop froze twice (207 s and 390 s).
 
-## Next steps
-Test on fresh unseen questions. Fine tune on Banglish bank text (LoRA) and compare. Add a check for
-meaning errors such as before against after. Try a larger local model. Add multi turn memory.
+**What I would do next:** test on new questions, fine tune on Banglish banking text, check for meaning mistakes like before and after, try a bigger model, and add chat memory.
