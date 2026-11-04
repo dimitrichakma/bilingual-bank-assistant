@@ -159,6 +159,8 @@ docs/        BRIEF.md (task), NOTE.md (one page note)
 | Covered questions wrongly handed off | 2 of 30 | 3 of 30 |
 | Speed per reply, average and slowest | 4.7 s and 11.4 s (whole pipeline) | 2.4 s and 4.0 s (reply step only) |
 
+![Results on the 40 test questions: local qwen3.5:9b-mlx against online claude-sonnet-5-5](docs/images/results.png)
+
 What does not work well: Banglish replies from the small model (wrong or odd words), one reply that
 changed the meaning (Q6), one retrieval miss (Q20), a thin margin on the 0.50 threshold, and wording
 that changes slightly between runs. Details in `docs/NOTE.md`.
